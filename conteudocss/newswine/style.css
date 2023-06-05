@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color:#3D7085;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+    cursor: pointer;
+    height: 50px;
+    padding: 15px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 330px;
+    padding: 10px;
+}
+
+
+.slogan{
+    font-size: 32px;
+    border-right: 2px solid white;    
+    width: 250px;
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    gap: 3px;
+}
+
+.texSlogan {
+    font-size: 18px;
+    padding: 5px;
+}
+
+.slogan span {
+    font-weight: 900;
+}
+
+.login {
+    display: flex;
+    align-items: center; 
+    gap: 12px;   
+}
+
+.login button {
+    width: 60px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    font-size: 14;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.login span {
+    font-weight: 700;
+}
+
+.login button:hover {
+    background-color: #ffffff;
+    color: #477F90;
+    font-weight: 700;
+}
+
+.baner {
+    width: 100%;
+    height: 350px;
+    background: linear-gradient(45deg, #477F90, #42ABBE, #3D7085);
+    color: #272424;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.BanerTitulo {
+    font-size: 44px;
+    font-style: italic;
+    padding-bottom: 27px;
+}
+
+form {
+    display: flex;
+    box-shadow: 3px 3px 5px rgb(58, 57, 57);
+}
+
+.search input {
+    width: 620px;
+    height: 45px;
+    border-radius: 3px;
+    border: none;
+    padding: 7px;
+    margin-left: 0px;
+}
+
+
+.search button {
+    height: 45px;
+    width: 100px;
+    margin-right: 0;
+    background-color: #0e7562;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}
+
+.search button:hover{
+    background-color: #075345;
+}
+
+.banerText {
+    padding-top: 15px;
+    font-style: italic;
+}
+
+.banerTextNegrito {
+    font-weight: 700;
+}
